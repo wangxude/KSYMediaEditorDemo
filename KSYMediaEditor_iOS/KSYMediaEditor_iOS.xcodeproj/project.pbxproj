@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7863BA3120103ECE00884FC1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7863BA3020103ECE00884FC1 /* AppDelegate.m */; };
+		7863BA3420103ECE00884FC1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7863BA3320103ECE00884FC1 /* ViewController.m */; };
+		7863BA3720103ECE00884FC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7863BA3520103ECE00884FC1 /* Main.storyboard */; };
+		7863BA3920103ECE00884FC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7863BA3820103ECE00884FC1 /* Assets.xcassets */; };
+		7863BA3C20103ECE00884FC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7863BA3A20103ECE00884FC1 /* LaunchScreen.storyboard */; };
+		7863BA3F20103ECE00884FC1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7863BA3E20103ECE00884FC1 /* main.m */; };
+		7863BA4920103ECE00884FC1 /* KSYMediaEditor_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7863BA4820103ECE00884FC1 /* KSYMediaEditor_iOSTests.m */; };
+		7863BA5420103ECE00884FC1 /* KSYMediaEditor_iOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7863BA5320103ECE00884FC1 /* KSYMediaEditor_iOSUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7863BA4520103ECE00884FC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7863BA2420103ECD00884FC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7863BA2B20103ECD00884FC1;
+			remoteInfo = KSYMediaEditor_iOS;
+		};
+		7863BA5020103ECE00884FC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7863BA2420103ECD00884FC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7863BA2B20103ECD00884FC1;
+			remoteInfo = KSYMediaEditor_iOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7863BA2C20103ECE00884FC1 /* KSYMediaEditor_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KSYMediaEditor_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7863BA2F20103ECE00884FC1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7863BA3020103ECE00884FC1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7863BA3220103ECE00884FC1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7863BA3320103ECE00884FC1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7863BA3620103ECE00884FC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7863BA3820103ECE00884FC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7863BA3B20103ECE00884FC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7863BA3D20103ECE00884FC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7863BA3E20103ECE00884FC1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7863BA4420103ECE00884FC1 /* KSYMediaEditor_iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KSYMediaEditor_iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7863BA4820103ECE00884FC1 /* KSYMediaEditor_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSYMediaEditor_iOSTests.m; sourceTree = "<group>"; };
+		7863BA4A20103ECE00884FC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7863BA4F20103ECE00884FC1 /* KSYMediaEditor_iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KSYMediaEditor_iOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7863BA5320103ECE00884FC1 /* KSYMediaEditor_iOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSYMediaEditor_iOSUITests.m; sourceTree = "<group>"; };
+		7863BA5520103ECE00884FC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7863BA2920103ECD00884FC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7863BA4120103ECE00884FC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7863BA4C20103ECE00884FC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7863BA2320103ECD00884FC1 = {
+			isa = PBXGroup;
+			children = (
+				7863BA2E20103ECE00884FC1 /* KSYMediaEditor_iOS */,
+				7863BA4720103ECE00884FC1 /* KSYMediaEditor_iOSTests */,
+				7863BA5220103ECE00884FC1 /* KSYMediaEditor_iOSUITests */,
+				7863BA2D20103ECE00884FC1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7863BA2D20103ECE00884FC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7863BA2C20103ECE00884FC1 /* KSYMediaEditor_iOS.app */,
+				7863BA4420103ECE00884FC1 /* KSYMediaEditor_iOSTests.xctest */,
+				7863BA4F20103ECE00884FC1 /* KSYMediaEditor_iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7863BA2E20103ECE00884FC1 /* KSYMediaEditor_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				7863BA2F20103ECE00884FC1 /* AppDelegate.h */,
+				7863BA3020103ECE00884FC1 /* AppDelegate.m */,
+				7863BA3220103ECE00884FC1 /* ViewController.h */,
+				7863BA3320103ECE00884FC1 /* ViewController.m */,
+				7863BA3520103ECE00884FC1 /* Main.storyboard */,
+				7863BA3820103ECE00884FC1 /* Assets.xcassets */,
+				7863BA3A20103ECE00884FC1 /* LaunchScreen.storyboard */,
+				7863BA3D20103ECE00884FC1 /* Info.plist */,
+				7863BA3E20103ECE00884FC1 /* main.m */,
+			);
+			path = KSYMediaEditor_iOS;
+			sourceTree = "<group>";
+		};
+		7863BA4720103ECE00884FC1 /* KSYMediaEditor_iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				7863BA4820103ECE00884FC1 /* KSYMediaEditor_iOSTests.m */,
+				7863BA4A20103ECE00884FC1 /* Info.plist */,
+			);
+			path = KSYMediaEditor_iOSTests;
+			sourceTree = "<group>";
+		};
+		7863BA5220103ECE00884FC1 /* KSYMediaEditor_iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7863BA5320103ECE00884FC1 /* KSYMediaEditor_iOSUITests.m */,
+				7863BA5520103ECE00884FC1 /* Info.plist */,
+			);
+			path = KSYMediaEditor_iOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7863BA2B20103ECD00884FC1 /* KSYMediaEditor_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7863BA5820103ECE00884FC1 /* Build configuration list for PBXNativeTarget "KSYMediaEditor_iOS" */;
+			buildPhases = (
+				7863BA2820103ECD00884FC1 /* Sources */,
+				7863BA2920103ECD00884FC1 /* Frameworks */,
+				7863BA2A20103ECD00884FC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KSYMediaEditor_iOS;
+			productName = KSYMediaEditor_iOS;
+			productReference = 7863BA2C20103ECE00884FC1 /* KSYMediaEditor_iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7863BA4320103ECE00884FC1 /* KSYMediaEditor_iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7863BA5B20103ECE00884FC1 /* Build configuration list for PBXNativeTarget "KSYMediaEditor_iOSTests" */;
+			buildPhases = (
+				7863BA4020103ECE00884FC1 /* Sources */,
+				7863BA4120103ECE00884FC1 /* Frameworks */,
+				7863BA4220103ECE00884FC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7863BA4620103ECE00884FC1 /* PBXTargetDependency */,
+			);
+			name = KSYMediaEditor_iOSTests;
+			productName = KSYMediaEditor_iOSTests;
+			productReference = 7863BA4420103ECE00884FC1 /* KSYMediaEditor_iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7863BA4E20103ECE00884FC1 /* KSYMediaEditor_iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7863BA5E20103ECE00884FC1 /* Build configuration list for PBXNativeTarget "KSYMediaEditor_iOSUITests" */;
+			buildPhases = (
+				7863BA4B20103ECE00884FC1 /* Sources */,
+				7863BA4C20103ECE00884FC1 /* Frameworks */,
+				7863BA4D20103ECE00884FC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7863BA5120103ECE00884FC1 /* PBXTargetDependency */,
+			);
+			name = KSYMediaEditor_iOSUITests;
+			productName = KSYMediaEditor_iOSUITests;
+			productReference = 7863BA4F20103ECE00884FC1 /* KSYMediaEditor_iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7863BA2420103ECD00884FC1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "王旭";
+				TargetAttributes = {
+					7863BA2B20103ECD00884FC1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					7863BA4320103ECE00884FC1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7863BA2B20103ECD00884FC1;
+					};
+					7863BA4E20103ECE00884FC1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7863BA2B20103ECD00884FC1;
+					};
+				};
+			};
+			buildConfigurationList = 7863BA2720103ECD00884FC1 /* Build configuration list for PBXProject "KSYMediaEditor_iOS" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7863BA2320103ECD00884FC1;
+			productRefGroup = 7863BA2D20103ECE00884FC1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7863BA2B20103ECD00884FC1 /* KSYMediaEditor_iOS */,
+				7863BA4320103ECE00884FC1 /* KSYMediaEditor_iOSTests */,
+				7863BA4E20103ECE00884FC1 /* KSYMediaEditor_iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7863BA2A20103ECD00884FC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7863BA3C20103ECE00884FC1 /* LaunchScreen.storyboard in Resources */,
+				7863BA3920103ECE00884FC1 /* Assets.xcassets in Resources */,
+				7863BA3720103ECE00884FC1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7863BA4220103ECE00884FC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7863BA4D20103ECE00884FC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7863BA2820103ECD00884FC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7863BA3420103ECE00884FC1 /* ViewController.m in Sources */,
+				7863BA3F20103ECE00884FC1 /* main.m in Sources */,
+				7863BA3120103ECE00884FC1 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7863BA4020103ECE00884FC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7863BA4920103ECE00884FC1 /* KSYMediaEditor_iOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7863BA4B20103ECE00884FC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7863BA5420103ECE00884FC1 /* KSYMediaEditor_iOSUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7863BA4620103ECE00884FC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7863BA2B20103ECD00884FC1 /* KSYMediaEditor_iOS */;
+			targetProxy = 7863BA4520103ECE00884FC1 /* PBXContainerItemProxy */;
+		};
+		7863BA5120103ECE00884FC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7863BA2B20103ECD00884FC1 /* KSYMediaEditor_iOS */;
+			targetProxy = 7863BA5020103ECE00884FC1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7863BA3520103ECE00884FC1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7863BA3620103ECE00884FC1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7863BA3A20103ECE00884FC1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7863BA3B20103ECE00884FC1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7863BA5620103ECE00884FC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7863BA5720103ECE00884FC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7863BA5920103ECE00884FC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KSYMediaEditor_iOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wx.KSYMediaEditor-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7863BA5A20103ECE00884FC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KSYMediaEditor_iOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wx.KSYMediaEditor-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7863BA5C20103ECE00884FC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KSYMediaEditor_iOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wx.KSYMediaEditor-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KSYMediaEditor_iOS.app/KSYMediaEditor_iOS";
+			};
+			name = Debug;
+		};
+		7863BA5D20103ECE00884FC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KSYMediaEditor_iOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wx.KSYMediaEditor-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KSYMediaEditor_iOS.app/KSYMediaEditor_iOS";
+			};
+			name = Release;
+		};
+		7863BA5F20103ECE00884FC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KSYMediaEditor_iOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wx.KSYMediaEditor-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KSYMediaEditor_iOS;
+			};
+			name = Debug;
+		};
+		7863BA6020103ECE00884FC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KSYMediaEditor_iOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wx.KSYMediaEditor-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KSYMediaEditor_iOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7863BA2720103ECD00884FC1 /* Build configuration list for PBXProject "KSYMediaEditor_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7863BA5620103ECE00884FC1 /* Debug */,
+				7863BA5720103ECE00884FC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7863BA5820103ECE00884FC1 /* Build configuration list for PBXNativeTarget "KSYMediaEditor_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7863BA5920103ECE00884FC1 /* Debug */,
+				7863BA5A20103ECE00884FC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7863BA5B20103ECE00884FC1 /* Build configuration list for PBXNativeTarget "KSYMediaEditor_iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7863BA5C20103ECE00884FC1 /* Debug */,
+				7863BA5D20103ECE00884FC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7863BA5E20103ECE00884FC1 /* Build configuration list for PBXNativeTarget "KSYMediaEditor_iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7863BA5F20103ECE00884FC1 /* Debug */,
+				7863BA6020103ECE00884FC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7863BA2420103ECD00884FC1 /* Project object */;
+}
